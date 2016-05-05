@@ -1,0 +1,68 @@
+body {
+  background: url(background.jpeg) no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    font-family: Roboto;
+    color: rgba(241,242,242,1);
+}
+
+#main, nav, a{
+  /*change to a softer white*/
+  color: rgba(241,242,242,1);
+}
+
+#main {
+  margin-top: 200px;
+  background-color: rgba(12,13,13,1);
+  font-size: 14px;
+}
+
+#navBar {
+  background: rgba(12,13,13,1);
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+footer {
+  color:rgba(241,242,242,1);
+  background: rgba(12,13,13,1);
+  height: 50px;
+  padding-top: 5px;
+}
+
+.well {
+  background: rgba(12,13,13,1);
+  height: auto;
+}
+
+
+#submitBtn {
+  background: rgba(3,124,104,1);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.banner {
+  text-align: center;
+}
+
+#myName {
+  font-size: 16px;
+  font-weight: bolder;
+  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s; /* Safari and Chrome */
+}
+
+/* remove footer on small screen to avoid well squooshing into footer */
+@media only screen and (max-width: 500px) {
+  footer {
+    visibility: hidden;
+  }
+}
